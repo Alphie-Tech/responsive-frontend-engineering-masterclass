@@ -1,12 +1,15 @@
-🟦 Week 1 — HTML Foundations (GitHub Submission Guide)
-
-🟦 GITHUB SUBMISSION — WEEK 1 EXERCISES
-
 
 ---
 
-📁 Folder Structure (GitHub)
+# 🟦 Week 1 — HTML Foundations (GitHub Submission Guide)
 
+## 🟦 GITHUB SUBMISSION — WEEK 1 EXERCISES
+
+---
+
+### 📁 Folder Structure (GitHub)
+
+```text
 assignments/
 └── week-1-html/
     ├── monday/
@@ -15,389 +18,169 @@ assignments/
     ├── thursday/
     └── friday-final-project/
 
+```
 
 ---
 
-🧩 DAILY PRACTICE BREAKDOWN
+## 🧩 DAILY PRACTICE BREAKDOWN
 
+### 🗓 Monday — HTML Foundations
 
----
+**Folder:** `📁 monday/`
 
-🗓 Monday — HTML Foundations
+#### 🛠 Exercise 1 — HTML Boilerplate
 
-📁 monday/
-
-🛠 Exercise 1 — HTML Boilerplate
-
-📄 File:
-
-index.html
-
-Requirements:
-
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head> and <body>
-
-meta tags:
-
-charset
-
-viewport
-
-description
-
-author
-
-
-<title>
+* **File:** `index.html`
+* **Requirements:**
+* `<!DOCTYPE html>`
+* `<html lang="en">`
+* `<head>` and `<body>`
+* **Meta tags:** `charset`, `viewport`, `description`, `author`
+* `<title>`
 
 
 
----
+#### 🛠 Exercise 2 — Content Structure
 
-🛠 Exercise 2 — Content Structure
-
-Inside <body> include:
-
-headings (h1–h3)
-
-paragraphs
-
-ordered list
-
-unordered list
-
-links
-
-images
-
-comments
+* **Inside `<body>` include:**
+* Headings (`h1`–`h3`)
+* Paragraphs
+* Ordered list
+* Unordered list
+* Links
+* Images
+* Comments
 
 
-Sections:
-
-Hero Introduction
-
-About Me
-
-Learning Goals
-
-Favorite Technologies
+* **Required Sections:**
+* Hero Introduction
+* About Me
+* Learning Goals
+* Favorite Technologies
 
 
 
 ---
 
-🗓 Tuesday — Semantic HTML
+### 🗓 Tuesday — Semantic HTML
 
-📁 tuesday/
+**Folder:** `📁 tuesday/`
 
-🛠 Exercise 1 — Semantic Refactor
+#### 🛠 Exercise 1 — Semantic Refactor
 
-📄 File:
+* **File:** `semantic-layout.html`
+* **Must include:** `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
 
-semantic-layout.html
+#### 🛠 Exercise 2 — Navigation Menu
 
-Must include:
-
-<header>
-
-<nav>
-
-<main>
-
-<section>
-
-<article>
-
-<aside>
-
-<footer>
-
-
-
----
-
-🛠 Exercise 2 — Navigation Menu
-
+```html
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
 <a href="#goals">Goals</a>
 <a href="#contact">Contact</a>
 
+```
+
+#### 🛠 Exercise 3 — Classes & IDs
+
+* Minimum 5 classes
+* Minimum 4 IDs
+
+#### 🛠 Exercise 4 — Inline vs Block Elements
+
+* **Use:** `<span>`, `<strong>`, `<em>`
 
 ---
 
-🛠 Exercise 3 — Classes & IDs
+### 🗓 Wednesday — Tables & Media
 
-Minimum 5 classes
+**Folder:** `📁 wednesday/`
 
-Minimum 4 IDs
+#### 🛠 Exercise 1 — Tables
 
+* **File:** `tables.html`
+* **Table 1 Columns:** Day, Topic, Duration
+* **Table 2 Columns:** Technology, Category, Experience Level
 
+#### 🛠 Exercise 2 — Media
 
----
+* Image
+* YouTube embed
+* Audio or video
 
-🛠 Exercise 4 — Inline vs Block Elements
+#### 🛠 Exercise 3 — Accessibility
 
-Use:
-
-<span>
-
-<strong>
-
-<em>
-
-
-
----
-
-🗓 Wednesday — Tables & Media
-
-📁 wednesday/
-
-🛠 Exercise 1 — Tables
-
-📄 File:
-
-tables.html
-
-Table 1:
-
-Day
-
-Topic
-
-Duration
-
-
-Table 2:
-
-Technology
-
-Category
-
-Experience Level
-
-
+* Proper heading hierarchy
+* Alt text
+* Logical structure
 
 ---
 
-🛠 Exercise 2 — Media
+### 🗓 Thursday — Forms
 
-image
+**Folder:** `📁 thursday/`
 
-YouTube embed
+#### 🛠 Exercise 1 — Registration Form
 
-audio or video
-
-
-
----
-
-🛠 Exercise 3 — Accessibility
-
-proper heading hierarchy
-
-alt text
-
-logical structure
+* **File:** `student-registration-form.html`
+* **Inputs:** `text`, `email`, `password`, `number`, `date`
+* **Elements:** `textarea`, `select`, `radio`, `checkbox`, `submit`, `reset`
+* **Requirements:**
+* Labels for every input
+* `name` attributes
+* Placeholders
+* Required fields
 
 
 
----
+#### 🛠 Exercise 2 — Contact Page
 
-🗓 Thursday — Forms
-
-📁 thursday/
-
-🛠 Exercise 1 — Registration Form
-
-📄 File:
-
-student-registration-form.html
-
-Inputs:
-
-text
-
-email
-
-password
-
-number
-
-date
-
-
-Elements:
-
-textarea
-
-select
-
-radio
-
-checkbox
-
-submit
-
-reset
-
-
-Requirements:
-
-labels for every input
-
-name attributes
-
-placeholders
-
-required fields
-
-
+* **File:** `contact.html`
+* Must be linked in nav
+* Must be linked in footer
 
 ---
 
-🛠 Exercise 2 — Contact Page
+### 🗓 Friday — Final Project
 
-📄 File:
+**Folder:** `📁 friday-final-project/`
 
-contact.html
+#### 🚀 Developer Portfolio Website
 
-must be linked in nav
-
-must be linked in footer
-
-
-
----
-
-🗓 Friday — Final Project
-
-📁 friday-final-project/
-
-🚀 Developer Portfolio Website
-
-Structure:
-
+* **Structure:**
+```text
 index.html
 pages/
   contact.html
 images/
 assets/
 
+```
+
+
+
+```
+
+* **General Requirements:**
+  * Semantic layout, navigation, forms, tables, images, lists, comments, classes, and IDs
+
+* **Required Semantic Elements:**
+  * `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
+
+* **Accessibility Requirements:**
+  * Heading hierarchy, alt text, form labels, and logical structure
+
+* **🌟 Bonus Features:**
+  * Google Maps embed, YouTube embed, FAQ section, testimonials section, `iframe`, and media elements
 
 ---
 
-Requirements:
+## 📤 Submission & Deadline
 
-semantic layout
+* **Submission Steps:** 
+  1. Push to GitHub
+  2. Maintain the specified folder structure
+  3. Ensure clean, commented code
+* **🕚 Deadline:** Friday — 11:59 PM
 
-navigation
-
-forms
-
-tables
-
-images
-
-lists
-
-comments
-
-classes
-
-IDs
-
-
-
----
-
-Semantic Elements:
-
-header
-
-nav
-
-main
-
-section
-
-article
-
-aside
-
-footer
-
-
-
----
-
-Accessibility:
-
-heading hierarchy
-
-alt text
-
-form labels
-
-logical structure
-
-
-
----
-
-🌟 Bonus:
-
-Google Maps embed
-
-YouTube embed
-
-FAQ section
-
-testimonials
-
-iframe
-
-media elements
-
-
-
----
-
-📤 Submission
-
-push to GitHub
-
-maintain folder structure
-
-clean code
-
-
-
----
-
-🕚 Deadline
-
-Friday — 11:59 PM
-
-
----
-
-🧠 Outcome
-
-Students will be able to:
-
-structure webpages
-
-build semantic layouts
-
-create forms & tables
-
-apply accessibility
-
-think like frontend engineers
+```
