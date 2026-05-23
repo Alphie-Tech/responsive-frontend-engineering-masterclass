@@ -1,6 +1,9 @@
----
+🟦 Week 1 — HTML Foundations (GitHub Submission Guide)
 
 🟦 GITHUB SUBMISSION — WEEK 1 EXERCISES
+
+
+---
 
 📁 Folder Structure (GitHub)
 
@@ -17,35 +20,47 @@ assignments/
 
 🧩 DAILY PRACTICE BREAKDOWN
 
+
+---
+
 🗓 Monday — HTML Foundations
 
 📁 monday/
 
-🛠 Exercise 1: HTML Boilerplate
+🛠 Exercise 1 — HTML Boilerplate
 
-File:
+📄 File:
 
 index.html
 
-Build:
+Requirements:
 
-DOCTYPE
+<!DOCTYPE html>
 
-html lang
+<html lang="en">
 
-head + body
+<head> and <body>
 
-meta tags
+meta tags:
 
-title
+charset
+
+viewport
+
+description
+
+author
+
+
+<title>
 
 
 
 ---
 
-🛠 Exercise 2: Content Structure
+🛠 Exercise 2 — Content Structure
 
-Inside body:
+Inside <body> include:
 
 headings (h1–h3)
 
@@ -76,20 +91,233 @@ Favorite Technologies
 
 ---
 
-
----
-
 🗓 Tuesday — Semantic HTML
 
 📁 tuesday/
 
-🛠 Exercise 1: Semantic Refactor
+🛠 Exercise 1 — Semantic Refactor
 
-File:
+📄 File:
 
 semantic-layout.html
 
+Must include:
+
+<header>
+
+<nav>
+
+<main>
+
+<section>
+
+<article>
+
+<aside>
+
+<footer>
+
+
+
+---
+
+🛠 Exercise 2 — Navigation Menu
+
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#goals">Goals</a>
+<a href="#contact">Contact</a>
+
+
+---
+
+🛠 Exercise 3 — Classes & IDs
+
+Minimum 5 classes
+
+Minimum 4 IDs
+
+
+
+---
+
+🛠 Exercise 4 — Inline vs Block Elements
+
 Use:
+
+<span>
+
+<strong>
+
+<em>
+
+
+
+---
+
+🗓 Wednesday — Tables & Media
+
+📁 wednesday/
+
+🛠 Exercise 1 — Tables
+
+📄 File:
+
+tables.html
+
+Table 1:
+
+Day
+
+Topic
+
+Duration
+
+
+Table 2:
+
+Technology
+
+Category
+
+Experience Level
+
+
+
+---
+
+🛠 Exercise 2 — Media
+
+image
+
+YouTube embed
+
+audio or video
+
+
+
+---
+
+🛠 Exercise 3 — Accessibility
+
+proper heading hierarchy
+
+alt text
+
+logical structure
+
+
+
+---
+
+🗓 Thursday — Forms
+
+📁 thursday/
+
+🛠 Exercise 1 — Registration Form
+
+📄 File:
+
+student-registration-form.html
+
+Inputs:
+
+text
+
+email
+
+password
+
+number
+
+date
+
+
+Elements:
+
+textarea
+
+select
+
+radio
+
+checkbox
+
+submit
+
+reset
+
+
+Requirements:
+
+labels for every input
+
+name attributes
+
+placeholders
+
+required fields
+
+
+
+---
+
+🛠 Exercise 2 — Contact Page
+
+📄 File:
+
+contact.html
+
+must be linked in nav
+
+must be linked in footer
+
+
+
+---
+
+🗓 Friday — Final Project
+
+📁 friday-final-project/
+
+🚀 Developer Portfolio Website
+
+Structure:
+
+index.html
+pages/
+  contact.html
+images/
+assets/
+
+
+---
+
+Requirements:
+
+semantic layout
+
+navigation
+
+forms
+
+tables
+
+images
+
+lists
+
+comments
+
+classes
+
+IDs
+
+
+
+---
+
+Semantic Elements:
 
 header
 
@@ -109,80 +337,13 @@ footer
 
 ---
 
-🛠 Exercise 2: Navigation Menu
-
-anchor links (#about, #skills, etc.)
-
-
-
----
-
-🛠 Exercise 3: Classes & IDs
-
-5 classes
-
-4 IDs
-
-
-
----
-
-🛠 Exercise 4: Inline vs Block demo
-
-Use:
-
-span
-
-strong
-
-em
-
-
-
----
-
-
----
-
-🗓 Wednesday — Tables & Media
-
-📁 wednesday/
-
-🛠 Exercise 1: Tables
-
-File:
-
-tables.html
-
-Build:
-
-Weekly schedule table
-
-Technologies table
-
-
-
----
-
-🛠 Exercise 2: Media
-
-Add:
-
-image
-
-YouTube embed
-
-audio/video
-
-
-
----
-
-🛠 Exercise 3: Accessibility cleanup
+Accessibility:
 
 heading hierarchy
 
 alt text
+
+form labels
 
 logical structure
 
@@ -190,90 +351,53 @@ logical structure
 
 ---
 
+🌟 Bonus:
 
----
+Google Maps embed
 
-🗓 Thursday — Forms
+YouTube embed
 
-📁 thursday/
+FAQ section
 
-🛠 Exercise 1: Registration Form
+testimonials
 
-File:
+iframe
 
-student-registration-form.html
-
-Must include:
-
-input types (text, email, password, etc.)
-
-textarea
-
-select
-
-radio
-
-checkbox
-
-submit/reset
-
-labels + name attributes
+media elements
 
 
 
 ---
 
-🛠 Exercise 2: Contact Page
+📤 Submission
 
-File:
+push to GitHub
 
-contact.html
+maintain folder structure
 
-linked via nav + footer
+clean code
 
 
 
 ---
 
+🕚 Deadline
 
----
-
-🗓 Friday — Final Project
-
-📁 friday-final-project/
-
-🚀 Project: Developer Portfolio Website
-
-Structure:
-
-index.html
-pages/contact.html
-images/
-assets/
-
-Must include:
-
-semantic layout
-
-navigation
-
-form
-
-table
-
-images
-
-lists
-
-comments
-
-classes + IDs
+Friday — 11:59 PM
 
 
 ---
 
+🧠 Outcome
 
+Students will be able to:
 
+structure webpages
 
+build semantic layouts
 
+create forms & tables
 
+apply accessibility
+
+think like frontend engineers
